@@ -98,11 +98,11 @@ export class Header extends TailwindElement(style) {
                     </button>
                     <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="z-20 absolute w-screen top-12 -right-3 flex-col justify-between border-primary border-y-[3px] ">    
                         <ul class="flex flex-col md:flex-row justify-evenly h-[370px] pl-6 font-jose-600-it text-primary text-lg rounded-tl-lg rounded-bl-lg">
-                            <li><a href="./newsroom.html">Newsroom</a></li>
                             <li><a href="./services.html">Services</a></li>
-                            <li><a href="./publications.html">Publications</a></li>
+                            <li><a href="./our-team.html">Our Team</a></li>
+                            <li><a href="./sectors.html">Sectors</a></li>
                             <li><a href="./why-us.html">Why Us</a></li>
-                            <li><a href="./who-we-are.html">Who We Are</a></li>
+                            <li><a href="./publications.html">Publications</a></li>
                             <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
