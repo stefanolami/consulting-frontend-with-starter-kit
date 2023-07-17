@@ -31,9 +31,9 @@ export class Header extends TailwindElement(style) {
 
             <!-- TABLET / DESKTOP HEADER -->
 
-            <div class="hidden ${classMap({'md:hidden': this.withImg, 'md:flex': !this.withImg})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-2 md:pb-4 xl:pt-3 xl:pb-7">
+            <div class="hidden ${classMap({'md:hidden': this.withImg, 'md:flex': !this.withImg})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-3 md:pb-4 xl:pt-3 xl:pb-7">
                 <a class="xl:hidden ml-7" href="./home.html">
-                    <img class="w-[170px] xl:hidden" src="../../images/icons/T&P-consulting-logo-small-dark.svg" alt="T&P Funding logo">
+                    <img class="w-[204px] xl:hidden" src="../../images/icons/T&P-consulting-logo-small-dark.svg" alt="T&P Funding logo">
                 </a>
                 <a class="hidden xl:block ml-[4%]" href="./home.html">
                     <img class="w-[145px]" src="../../images/icons/T&P-consulting-logo-desktop.svg" alt="T&P Funding logo">             
@@ -63,7 +63,7 @@ export class Header extends TailwindElement(style) {
                     <a class="hidden xl:block ml-[4%]" href="./home.html">
                         <img class="w-[145px]" src="../../images/icons/T&P-consulting-logo-desktop-white.svg" aria-hidden="true" alt="T&P Consulting logo">             
                     </a>
-                    <nav id="header-nav" class="w-[70%]">
+                    <nav id="header-nav" class="w-[70%] mr-4">
                         <ul class="flex flex-row justify-around xl:justify-center items-center w-full h-full font-jose-400-it text-base text-center text-white">
                             <li class="desktop-header-nav-items border-white"><a href="./services.html">Services</a></li>
                             <li class="desktop-header-nav-items border-white"><a href="./our-team.html">Our Team</a></li>
