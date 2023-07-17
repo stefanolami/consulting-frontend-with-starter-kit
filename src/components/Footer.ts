@@ -21,8 +21,8 @@ export class Footer extends TailwindElement(style) {
                 <a class="mobile-footer-btns font-unna-700-it" href="./contact.html">Contact</a>
             </div>
 
-            <div class="font-jose-400 text-[11px] text-center leading-3 mt-2">
-                <p>©2023 Time&Place Funding. <br/>A pillar of Time&Place Consulting. <br/>All rights reserved</p>
+            <div class="font-jose-400 text-[11px] text-center leading-3 mt-5">
+                <p>©2023 Time&Place Consulting. <br/>All rights reserved</p>
             </div>
 
             <ul class="w-full px-9 flex flex-row justify-around font-jose-700 text-[11px]">
@@ -89,11 +89,11 @@ export class Footer extends TailwindElement(style) {
             </div>
             <div id="tablet-footer-nav" class="flex flex-col justify-around w-[88%] h-[120px] px-2 py-1 border-y font-jose-400-it text-xl">
                 <nav class="flex flex-row justify-around items-center ">
-                    <a href="./newsroom.html">Newsroom</a>
                     <a href="./services.html">Services</a>
-                    <a href="./publications.html">Publications</a>
+                    <a href="./our-team.html">Our Team</a>
+                    <a href="./sectors.html">Sectors</a>
                     <a href="./why-us.html">Why Us</a>
-                    <a href="./who-we-are.html">Who We Are</a>
+                    <a href="./publications.html">Publications</a>
                 </nav>
                 <nav class="flex flex-row justify-around items-center ">
                     <a href="./terms-conditions.html">Terms & Conditions</a>
@@ -102,7 +102,7 @@ export class Footer extends TailwindElement(style) {
                 </nav>
             </div>
             <div class="font-jose-200 text-xl text-center">
-                <p>©2023 Time&Place Funding. All rights reserved. <br/>Time&Place Funding is a pillar of Time&Place Consulting.</p>
+                <p>©2023 Time&Place Consulting. All rights reserved.</p>
             </div>
         </div>
             
@@ -118,17 +118,17 @@ export class Footer extends TailwindElement(style) {
                 <div class="grid grid-cols-3 w-[55%]">
                     <nav class="desktop-footer-navs">
                         <div class="desktop-footer-headings">Overview</div>
-                        <a class="desktop-footer-items" href="./newsroom.html">Newsroom</a>
                         <a class="desktop-footer-items" href="./services.html">Services</a>
-                        <a class="desktop-footer-items" href="./publications.html">Publications</a>
+                        <a class="desktop-footer-items" href="./our-team.html">Our Team</a>
+                        <a class="desktop-footer-items" href="./sectors.html">Sectors</a>
                         <a class="desktop-footer-items" href="./why-us.html">Why Us</a>
-                        <a class="desktop-footer-items" href="./who-we-are.html">Who We Are</a>
+                        <a class="desktop-footer-items" href="./publications.html">Publications</a>
                     </nav>
                     <ul class="desktop-footer-navs">
                         <li class="desktop-footer-headings">Contact us</li>
-                        <li class="desktop-footer-items">info@fundingontap.com</li>
-                        <li class="desktop-footer-items">+32 (0) 2 401 61 31</li>
-                        <li class="desktop-footer-items">Sablon Tower, <br/>Rue Joseph Stevens 7 <br/>1000 Bruxelles <br/>Belgium</li>
+                        <li class="desktop-footer-items">info@timeandplaceconsulting.com</li>
+                        <li class="desktop-footer-items">+32 (0) 485 38 22 21</li>
+                        <li class="desktop-footer-items">Rue de la Loi 81 A <br/>1040 Bruxelles <br/>Belgium</li>
                     </ul>
                     <nav class="desktop-footer-navs">
                         <div class="desktop-footer-headings">Privacy</div>
