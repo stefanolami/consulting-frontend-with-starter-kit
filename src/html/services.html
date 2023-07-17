@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=Nunito&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-        <title>T&P Funding - Services</title>
+        <title>T&P Consulting - Services</title>
         <link rel="stylesheet" href="../shared/tailwind.global.css">
         <link
         rel="stylesheet"
@@ -17,193 +17,13 @@
     <body>
         <my-header></my-header>
         <main id="main">
-            <!-- MOBILE OUR SERVICES -->
-
-            <div class="mt-4 md:hidden">
-                <h1 class="text-center font-unna-700 text-[20px] leading:-[23px]">OUR SERVICES</h1>
-                <p class="mt-4 text-center font-jose-400-it text-[14px] leading-[16px]">We can step in at any point of the cycle, <br>or provide relevant training</p>
-                <div  class="swiper mt-4">
-                    <!-- Additional required wrapper -->
-                    <div id="swiper-container" class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div id="mobile-slide-1" class="swiper-slide h-96">    <!-- FIRST SLIDE -->
-                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-mygreen text-center">PROJECT INITIATION</h4>
-                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
-                                <div class="grid grid-rows-3 gap-3">
-                                    <div class="mobile-project-initiation-btns services-project-initiation-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Brainstorming</div>
-                                    <div class="mobile-project-initiation-btns services-project-initiation-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Idea Development</div>
-                                    <div class="mobile-project-initiation-btns services-project-initiation-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Funding Match</div>
-                                </div>
-                                <div class="block mobile-project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">BRAINSTORMING</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Creativity process to gather ideas, thoughts and inspiration</li>
-                                        <li>Structured process to find new ideas which can be filtered into a catalogue of concrete opportunities with the most potential</li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">IDEA DEVELOPMENT</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Modification of the ideas / sorting out the best opportunities from the idea catalogue</li>
-                                        <li>What is possible, who is the customer, is there added value for your customer/end-user</li>  
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-initiation bg-mygreen/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygreen">FUNDING MATCH</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Searching the funding landscape for opportunities matching your idea</li>
-                                        <li>Evaluating opportunities according to your business strategy</li>
-                                        <li>Report including evaluation of the opportunities and funding scheme</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-mygreen-light hover:text-white hover:bg-mygreen-light border-mygreen-light border-2 rounded-full">
-                                <div>GET IN TOUCH</div>
-                            </a>
-                        </div>
-                        <div id="mobile-slide-2" class="swiper-slide h-96">    <!-- SECOND SLIDE -->
-                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-primary-focus text-center">PROJECT PLANNING</h4>
-                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
-                                <div class="grid grid-rows-3 gap-3">
-                                    <div class="mobile-project-planning-btns services-project-planning-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Idea to Project</div>
-                                    <div class="mobile-project-planning-btns services-project-planning-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Project Development</div>
-                                    <div class="mobile-project-planning-btns services-project-planning-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Project Proposal</div>
-                                </div>
-                                <div class="block mobile-project-planning bg-primary/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">IDEA TO PROJECT</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Breaking the idea down to major development stages, showing where or what development is needed to go from state-of-the-art to the expected outcomes and results</li>
-                                        <li>Drafting first project structure</li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-planning bg-primary/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">PROJECT DEVELOPMENT</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Building project structure and defining work-packages and tasks</li>
-                                        <li>Identifying available knowledge, assigning  task and needed knowledge from new partners</li>
-                                        <li>Partner search and Consortium building</li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-planning bg-primary/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary">PROJECT PROPOSAL</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Managing the writing process, building project budget, proofreading input from partners, verification of alignment 
-                                            with EU national and regional policy, ongoing contact with the relevant authorities
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-primary hover:text-white hover:bg-primary border-primary border-2 rounded-full">
-                                <div>GET IN TOUCH</div>
-                            </a>
-                        </div>
-                        <div id="mobile-slide-3" class="swiper-slide h-96">    <!-- THIRD SLIDE -->
-                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-primary-dark2 text-center">PROJECT EXECUTION</h4>
-                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
-                                <div class="grid grid-rows-3 gap-3">
-                                    <div class="mobile-project-execution-btns services-project-execution-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Contract Negotiation</div>
-                                    <div class="mobile-project-execution-btns services-project-execution-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Project Implementation</div>
-                                    <div class="mobile-project-execution-btns services-project-execution-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Project Communication</div>
-                                </div>
-                                <div class="block mobile-project-execution bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">CONTRACT NEGOTIATION</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Responding to funding offer modifications in project description, according to offer</li>
-                                        <li>Finalisation of the Consortium agreement</li>
-                                        <li>Signing funding contracts and Consortium agreement by all partners</li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-execution bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">PROJECT IMPLEMENTATION</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Progress monitoring and management, including organising project meetings and the general assembly</li>
-                                        <li>Financial and administrative project management, including communication with funding authorities</li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-execution bg-primary-dark2/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-primary-dark2">PROJECT COMMUNICATION</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Internal communication management – e.g. data storage and email</li>
-                                        <li>External communication setup, dissemination and exploitation activities – e.g. social media, newsletters, websites</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-primary-dark2 hover:text-white hover:bg-primary-dark2 border-primary-dark2 border-2 rounded-full">
-                                <div>GET IN TOUCH</div>
-                            </a>
-                        </div>
-                        <div id="mobile-slide-4" class="swiper-slide h-96">    <!-- FOURTH SLIDE -->
-                            <h4 class="font-unna-700 text-[18px] leading-[20px] text-mygrey text-center">PROJECT CLOSURE</h4>
-                            <div class="grid grid-cols-2 gap-2 h-52 mx-5 mt-6 mb-12">
-                                <div class="grid grid-rows-3 gap-3">
-                                    <div class="mobile-project-closure-btns services-project-closure-focused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Completion of Project</div>
-                                    <div class="mobile-project-closure-btns services-project-closure-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">Market Introduction</div>
-                                    <div class="mobile-project-closure-btns services-project-closure-unfocused flex justify-center items-center px-3 text-center font-unna-700 text-[16px] leading-[18px] text-white rounded-full cursor-pointer">New Possibilities</div>
-                                </div>
-                                <div class="block mobile-project-closure bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">COMPLETION OF PROJECT</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Final reporting</li>
-                                        <li>Evaluation and measurement of main results compared to predefined expected outcome, listing and description of unexpected findings and side-results</li>
-                                        <li>Communication strategy for results</li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-closure bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">MARKET INTRODUCTION</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Product introduction to market – i.e. development of business plan, market penetration strategy, marketing management strategy and product assortment (market) strategy </li>
-                                    </ul>
-                                </div>
-                                <div class="hidden mobile-project-closure bg-mygrey/[.2] rounded-[40px] pt-4 px-2">
-                                    <h6 class="mb-2 font-unna-700 text-[14px] leading-[16px] text-center text-mygrey">NEW POSSIBILITIES</h6>
-                                    <ul class="font-jose-400 text-[11px] leading-[13px] list-disc pl-3">
-                                        <li>Inspiration for further development – i.e. start the process all over again, with or without the brainstorming to extract and expand on the ideas coming out from the project.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a  href="./contact.html" class="mx-auto w-[107px] h-7 flex justify-center items-center pt-[2px] font-jose-600 text-[10px] leading-[12px] text-mygrey hover:text-white hover:bg-mygrey border-mygrey border-2 rounded-full">
-                                <div>GET IN TOUCH</div>
-                            </a>
-                        </div>
-                    </div>
-                
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev text-black -translate-y-[180px] scale-[.45] select-none"></div>
-                    <div class="swiper-button-next text-black -translate-y-[180px] scale-[.45] select-none"></div>
-                </div>
-            </div>
-
-            <!-- END MOBILE OUR SERVICES -->
             <my-services></my-services>
         </main>
         <my-footer></my-footer>
         <script type="module" src="../components/Header.ts"></script>
         <script type="module" src="../components/Footer.ts"></script>
         <script type="module" src="../components/Services.ts"></script>
-        <script type="module" src="../components/sub-components/ServicesBig.ts"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <script src="../js/services.js"></script>
         <script type="module" src="../js/clickOutside.js"></script>
-        <script>
-            const swiper = new Swiper('.swiper', {
-                // Optional parameters
-                direction: 'horizontal',
-                loop: true,
-    
-                // If we need pagination
-                pagination: {
-                    el: '.swiper-pagination',
-                },
-    
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-    
-            });
-
-            
-        </script>
+        <script type="module" src="../js/services.js"></script>
     </body>
 </html>

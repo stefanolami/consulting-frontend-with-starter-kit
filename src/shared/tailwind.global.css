@@ -112,67 +112,16 @@
         @apply pt-5 pb-5 xl:pt-9 xl:pb-9
     }
 
-    .services-project-initiation-focused {
-        @apply bg-mygreen
+    .services-div {
+        @apply relative flex items-center justify-center w-[156px] h-[156px]
     }
 
-    .services-project-initiation.focused {
-        @apply bg-mygreen
+    .services-modal {
+        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px]
     }
 
-    .services-project-initiation-unfocused {
-        @apply bg-mygreen-light
-    }
-    .services-project-initiation.unfocused {
-        @apply bg-mygreen-light
-    }
-
-    .services-project-planning-focused {
-        @apply bg-primary-focus
-    }
-
-    .services-project-planning.focused {
-        @apply bg-primary-focus
-    }
-
-    .services-project-planning-unfocused {
-        @apply bg-primary
-    }
-
-    .services-project-planning.unfocused {
-        @apply bg-primary
-    }
-
-    .services-project-execution-focused {
-        @apply bg-primary-dark2/80
-    }
-
-    .services-project-execution.focused {
-        @apply bg-primary-dark2/80
-    }
-
-    .services-project-execution-unfocused {
-        @apply bg-primary-dark2
-    }
-
-    .services-project-execution.unfocused {
-        @apply bg-primary-dark2
-    }
-
-    .services-project-closure-focused {
-        @apply bg-mygrey
-    }
-
-    .services-project-closure.focused {
-        @apply bg-mygrey
-    }
-
-    .services-project-closure-unfocused {
-        @apply bg-mygrey/80
-    }
-
-    .services-project-closure.unfocused {
-        @apply bg-mygrey/80
+    .services-modal-left {
+        @apply -top-1 -left-1
     }
 
     .skip-link {
