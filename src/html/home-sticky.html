@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&family=Nunito&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>T&P Funding - Home</title>
+        <link rel="stylesheet" href="../shared/tailwind.global.css">
+    </head>
+    <body>
+        <my-header id="header" with-img="true"></my-header>
+        <div id="sticky" class="hidden sticky top-4 w-full  bg-white text-black z-50 justify-between items-center select-none bg-transparent xl:mt-4">
+            <a class="xl:hidden ml-7 bg-white" href="./home.html">
+                <img class="w-[200px] xl:hidden" src="../../images/icons/T&P-Logo-Funding-long-text-white.svg" alt="T&P Funding logo">
+            </a>
+            <a class="hidden xl:block ml-[4%] bg-white" href="./home.html">
+                <img class="w-[145px]" src="../../images/icons/T&Pfunding-logo-desktop-white.svg" alt="">             
+            </a>
+            <nav id="header-nav" class="bg-white flex flex-row justify-around xl:justify-center items-center w-[70%] h-full font-jose-400-it text-base text-center">    
+                <a class="desktop-header-nav-items border-white" href="./newsroom.html">Newsroom</a>
+                <a class="desktop-header-nav-items border-white" href="./services.html">Services</a>
+                <a class="desktop-header-nav-items border-white" href="./publications.html">Publications</a>
+                <a class="desktop-header-nav-items border-white" href="./why-us.html">Why Us</a>
+                <a class="desktop-header-nav-items border-white" href="./who-we-are.html">Who We Are</a>
+                <a class="desktop-header-nav-items xl:border-r-0" href="./contact.html">Contact</a>
+            </nav>
+        </div>
+        <landing-page></landing-page>
+        <my-footer></my-footer>
+        <script type="module" src="../components/Header.ts"></script>
+        <script type="module" src="../components/Footer.ts"></script>
+        <script type="module" src="../components/LandingPage.ts"></script>
+        <script type="module" src="../components/sub-components/LandingPageList.ts"></script>
+        <script type="module" src="../components/sub-components/LandingPageMobileNewsroom.ts"></script>
+        <script type="module" src="../components/sub-components/LandingPageBigNewsroom.ts"></script>
+        <script>
+            const stickyNav = document.querySelector('#sticky')
+            const header = document.querySelector('#header')
+            const options = {}
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) {
+                        stickyNav.classList.replace('hidden', 'flex')
+                    } else if (entry.isIntersecting) {
+                        stickyNav.classList.replace('flex', 'hidden')
+                    }
+                })
+            }, options)
+            observer.observe(header)
+        </script>
+    </body>
+</html>
