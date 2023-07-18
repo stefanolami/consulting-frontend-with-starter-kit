@@ -121,7 +121,11 @@
     }
 
     .services-modal-left {
-        @apply -top-1 -left-1
+        @apply -top-1 -left-1 right-auto
+    }
+
+    .services-modal-right {
+        @apply -top-1 -right-1 left-auto
     }
 
     .skip-link {
