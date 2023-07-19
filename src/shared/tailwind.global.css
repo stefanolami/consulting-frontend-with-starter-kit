@@ -113,7 +113,7 @@
     }
 
     .services-div {
-        @apply relative flex items-center justify-center w-[156px] md:w-[173px] xl:w-[198px] h-[156px] md:h-[147px] xl:h-[168px] cursor-pointer
+        @apply relative flex items-center justify-center w-[156px] md:w-[173px] xl:w-[198px] h-[156px] md:h-[147px] xl:h-[168px] cursor-pointer select-none
     }
 
     .services-div-contact {
@@ -121,23 +121,23 @@
     }
 
     .services-modal-close {
-        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] hidden opacity-0 flex-col justify-between items-center
+        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex-col justify-between items-center hidden
     }
 
     .services-modal-open-left {
-        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex opacity-100 flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -left-1 md:-left-2 xl:-left-3 right-auto 
+        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -left-1 md:-left-2 xl:-left-3 right-auto 
     }
 
     .services-modal-open-right {
-        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex opacity-100 flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -right-1 md:-right-2 xl:-right-3 left-auto
+        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -right-1 md:-right-2 xl:-right-3 left-auto
     }
 
     .services-modal-open-left-center {
-        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex opacity-100 flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -left-1 md:left-auto right-auto
+        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -left-1 md:left-auto right-auto
     }
 
     .services-modal-open-right-center {
-        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex opacity-100 flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -right-1 md:right-auto left-auto
+        @apply bg-primary-2 absolute z-50 text-white w-[248px] h-[248px] flex flex-col justify-between items-center -top-1 md:-top-2 xl:-top-3 -right-1 md:right-auto left-auto
     }
 
     .services-modal-left {
@@ -332,18 +332,21 @@ textarea:focus {
     transition: 200ms ease-in;
     transform: translateX(0px);
 }
-/* 
-html {
-    overflow-x: hidden;
-} */
 
 
 /* SERVICES ANIMATION */
 
-.services-modal-close,
+ 
+
+.services-modal-close {
+    scale: .1;
+    transition: scale 2s ease-out;
+}
+
 .services-modal-open-left,
 .services-modal-open-left-center,
 .services-modal-open-right,
 .services-modal-open-right-center {
-    transition: opacity 1s;
+    scale: 1;
+    transition: scale 2s ease-out;
 }
