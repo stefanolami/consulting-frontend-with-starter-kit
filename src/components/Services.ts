@@ -99,7 +99,7 @@ export class Services extends TailwindElement(style) {
                                         <p class="font-jose-400 text-[15px] leading-[17px] pl-8">
                                             ${this.modalTexts[index]}
                                         </p>
-                                        <a class="w-2/5 h-[30px] pt-[2px] mb-5 border-2 border-white rounded-full mx-auto font-jose-600 text-[10px] flex items-center justify-center" href="" aria-label="Learn More about ${title}">
+                                        <a class="w-2/5 h-8 pt-[2px] mb-5 border-2 border-white rounded-full mx-auto font-jose-600 text-[10px] flex items-center justify-center" href="" aria-label="Learn More about ${title}">
                                             LEARN MORE
                                         </a>
                                     </div>

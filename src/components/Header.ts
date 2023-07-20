@@ -94,7 +94,7 @@ export class Header extends TailwindElement(style) {
                                 <rect class="hamburger-line bottom z-50"  fill="white" width="50" height="6" x="25" y="60" rx="3"></rect>
                             </svg>
                         </button>
-                        <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="z-50 absolute w-screen top-12 -right-3 flex-col justify-between border-primary border-y-[3px] ">    
+                        <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="z-[100] absolute w-screen top-12 -right-3 flex-col justify-between border-primary border-y-[3px] ">    
                             <ul class="flex flex-col md:flex-row justify-evenly h-[370px] pl-6 font-jose-600-it text-primary text-lg rounded-tl-lg rounded-bl-lg">
                                 <li><a href="./services.html">Services</a></li>
                                 <li><a href="./our-team.html">Our Team</a></li>
