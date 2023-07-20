@@ -6,63 +6,87 @@ import { TailwindElement } from "../shared/tailwind.element";
 
 import style from "../shared/tailwind.global.css";
 
-@customElement("my-services")
-export class Services extends TailwindElement(style) {
+@customElement("my-sectors")
+export class Sectors extends TailwindElement(style) {
 
     @property()
     activeModal: string = ""
 
     @state()
     modalTitles = [
-        
+        'Agrifood',
+        'Anti-Illicit Trade',
+        'Aviation',
+        'Circular Economy & Sustainability',
+        'The Consumer',
+        'Digital Economy',
+        'Education & Training',
+        'E-Mobility',
+        'Energy & Environment',
+        'Financial Services',
+        'Gambling',
+        'Health',
+        'International Trade',
+        'Maritime',
+        'Media, Culture & Creativity',
+        'Security & Defence',
+        'Smes',
+        'Social Policy & Employment',
+        'Sports',
+        'Standardization',
+        'Tourism'
     ]
 
     @state()
     modalTexts: string[] = [
-        
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.',
+        'We have a lot of expertise in agrifood and would be delighted to share our knowledge with you and help you grow your business in this special area. Some of our clients include very well-known food producer in Europe.'
     ]
 
     render() {
         return html`
             <div class="md:mt-14 mb-20 xl:mb-28">
                 <h1 class="md:mb-10 xl:mb-20 text-center font-unna-700 text-[20px] md:text-[39px] xl:text-[50px]">SECTORS</h1>
-                <div class="grid grid-cols-[156px_156px] md:grid-cols-[173px_173px_173px_173px] xl:grid-cols-[198px_198px_198px_198px] w-[320px] md:w-[752px] xl:w-[864px] gap-2 md:gap-5 xl:gap-6 mx-auto mt-6">   
+                <div class="w-[90%] grid grid-cols-3 md:grid-cols-[173px_173px_173px_173px] xl:grid-cols-[198px_198px_198px_198px] md:w-[752px] xl:w-[864px] mx-auto mt-6">   
                     ${this.modalTitles.map((title, index) => {
-                        if (index == 13) {
                             return html`
-                                <a href="./contact.html" @click="${this.showModal}" id="${this.formatTitle(title)}" class="services-div">
-                                    <img class="hidden md:block absolute w-full h-full z-[-10]" src="../../images/services/Contact-Us-desktop.png" alt="${title}" aria-hidden="true" />
-                                    <img class="md:hidden absolute w-full h-full z-[-10]" src="../../images/services/Contact-Us-mobile.png" alt="${title}" aria-hidden="true" />
-                                    <span id="${this.formatTitle(title)}-span" class="z-20 w-[90%] text-white text-center font-jose-700 text-[13px] leading-[17px] ">${title}</span>
-                                </a>
-                            `
-                        } else {
-                            return html`
-                                <div @click="${this.showModal}" id="${this.formatTitle(title)}" class="services-div">
-                                    <img class="absolute w-full h-full z-[-10]" src="../../images/services/${title.replaceAll(',', '').replaceAll(' ', '-')}.png" alt="${title}" aria-hidden="true" />
-                                    <span id="${this.formatTitle(title)}-span" class="w-[90%] text-white text-center font-jose-700 text-[13px] leading-[17px] ">${title}</span>
-                                    <div id="${this.formatTitle(title)}-modal" 
+                                <div @click="${this.showModal}" id="${this.formatTitle(title)}" class="sectors-div">
+                                    <img class="w-[70%] mt-3" src="../../images/sectors/${title}.png" alt="${title}" aria-hidden="true"/>
+                                    <span class="w-[90%] text-center font-unna-700 text-[10px] leading-[12px] uppercase mt-4 mb-3">${title}</span>
+                                    <div id="${this.formatTitle(title)}-modal"
                                         data-open="${this.activeModal.includes(this.formatTitle(title)) ? 'true' : 'false'}"
-                                        class="services-modal"
+                                        class="sectors-modal"
                                     >
                                         <div class="flex flex-row justify-between w-full">
-                                            <span class="font-jose-700 text-[13px] leading-[17px] pt-6 pl-8 w-1/2">${title}</span>
-                                            <svg @click="${this.closeModal}" class="services-modal-close-btn mt-3 mr-3 cursor-pointer" viewBox="0 0 100 100" width="20" height="20">
-                                                <rect class="rotate-45 origin-center" fill="white" width="100" height="10" x="0" y="45" rx="5"></rect>
-                                                <rect class="-rotate-45 origin-center" fill="white" width="100" height="10" x="0" y="45" rx="5"></rect>
-                                            </svg>
+                                            <div class="flex flex-row justify-between items-center mt-3 ml-3">
+                                                <img class="w-8 h-8" src="../../images/sectors/${title} invert.png" alt="${title} invert" aria-hidden="true" />
+                                                <span class="">${title}</span>
+                                            </div>
                                         </div>
-                                        <p class="font-jose-400 text-[15px] leading-[17px] pl-8">
-                                            ${this.modalTexts[index]}
-                                        </p>
-                                        <a class="w-2/5 h-[30px] pt-[2px] mb-5 border-2 border-white rounded-full mx-auto font-jose-600 text-[10px] flex items-center justify-center" href="" aria-label="Learn More about ${title}">
-                                            LEARN MORE
-                                        </a>
                                     </div>
                                 </div>
                             `
                         }
-                    })}
+                    )}
                 </div>
             </div>              
         `;
