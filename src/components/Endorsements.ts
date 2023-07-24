@@ -4,8 +4,8 @@ import { TailwindElement } from "../shared/tailwind.element";
 
 import style from "../shared/tailwind.global.css";
 
-@customElement("why-us")
-export class WhyUs extends TailwindElement(style) {
+@customElement("my-endorsements")
+export class Endorsements extends TailwindElement(style) {
 
     render() {
         return html`
@@ -15,7 +15,7 @@ export class WhyUs extends TailwindElement(style) {
                     <a class="font-jose-600-it text-[9px] md:text-[12px] w-[32%] md:w-[30%] flex items-center justify-center h-7 md:h-9 pt-1 text-primary border-primary border-2 rounded-full" href="./endorsements.html">Endorsements</a>
                     <a class="font-jose-600-it text-[9px] md:text-[12px] w-[32%] md:w-[30%] flex items-center justify-center h-7 md:h-9 pt-1 text-primary border-primary border-2 rounded-full" href="./partners-&-portfolios.html">Partners & Portfolios</a>
                 </nav>
-                <h1 class="font-unna-700 text-xl md:text-[39px] md:leading-[45px] xl:text-[50px] xl:leading-[75px] text-center mb-4 md:mb-10 xl:mb-20">WHY US</h1>
+                <h1 class="font-unna-700 text-xl md:text-[39px] md:leading-[45px] xl:text-[50px] xl:leading-[75px] text-center mb-4 md:mb-10 xl:mb-20">ENDORSEMENTS</h1>
                 <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Experience</h3>
                 <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
                     T&P Consulting is made up of former political decision-makers, Commission officials, association Directors and multinational CEOs, as well as 
