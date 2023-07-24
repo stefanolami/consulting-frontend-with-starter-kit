@@ -113,19 +113,19 @@
     }
 
     .sectors-div {
-        @apply relative flex flex-col items-center justify-between w-full md:w-[173px] xl:w-[198px] md:h-[147px] xl:h-[168px] cursor-pointer select-none
+        @apply relative flex flex-col items-center justify-between w-full md:h-[200px] md3:h-[230px] select-none
     }
 
     .sectors-modal {
-        @apply absolute z-50 w-[262px] h-[268px] flex-col justify-between items-center flex border-2 border-primary bg-white -top-1 md:left-auto md:right-auto md:top-auto
+        @apply absolute z-50 w-[262px] md:w-[287px] xl:w-[313px] h-[268px] md:h-[295px] xl:h-[318px] flex-col justify-between items-center flex border-2 border-primary bg-white -top-1 md:left-auto md:right-auto md:-top-[30%] origin-top md:origin-center
     }
 
     .sectors-div:nth-child(3n+1) .sectors-modal {
-        @apply left-1
+        @apply left-1 origin-top-left md:left-auto md:right-auto md:-top-[30%] md:origin-center
     }
 
     .sectors-div:nth-child(3n+3) .sectors-modal {
-        @apply right-1
+        @apply right-1 origin-top-right md:left-auto md:right-auto md:-top-[30%] md:origin-center
     }
 
     .services-div {
@@ -392,3 +392,8 @@ textarea:focus {
                 opacity 200ms ease-in,
                 z-index 200ms step-start;
 }
+
+/* #agrifood-modal {
+    top: -100%;
+    left: -100%;
+} */

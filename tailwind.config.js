@@ -16,6 +16,10 @@ module.exports = {
         mygrey: {
           DEFAULT: '#6A95C5'
         }
+      },
+      screens: {
+        'md2': '826px',
+        'md3': '1000px'
       }
     },
   },
