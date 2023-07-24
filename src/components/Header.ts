@@ -44,9 +44,9 @@ export class Header extends TailwindElement(style) {
                             <li class="desktop-header-nav-items relative group">
                                 <a href="./why-us.html">Why Us</a>
                                 <div class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full">
-                                    <a class="h-12 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pt-2" href="">Client Codex</a>
-                                    <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pb-2" href="">Endorsements</a>
-                                    <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center" href="">Partners & <br>Portfolios</a>
+                                    <a class="h-12 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pt-2" href="./client-codex.html">Client Codex</a>
+                                    <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pb-2" href="./endorsements.html">Endorsements</a>
+                                    <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center" href="./partners-&-portfolios.html">Partners & <br>Portfolios</a>
                                 </div>
                             </li>
                             <li class="desktop-header-nav-items"><a href="./publications.html">Publications</a></li>
@@ -76,9 +76,9 @@ export class Header extends TailwindElement(style) {
                                 <li class="desktop-header-nav-items border-white relative group">
                                     <a href="./why-us.html">Why Us</a>
                                     <div class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full">
-                                        <a class="h-12 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pt-2" href="">Client Codex</a>
-                                        <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pb-2" href="">Endorsements</a>
-                                        <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center" href="">Partners & <br>Portfolios</a>
+                                        <a class="h-12 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pt-2" href="./client-codex.html">Client Codex</a>
+                                        <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pb-2" href="./endorsements.html">Endorsements</a>
+                                        <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center" href="./partners-&-portfolios.html">Partners & <br>Portfolios</a>
                                     </div>
                                 </li>
                                 <li class="desktop-header-nav-items border-white"><a href="./publications.html">Publications</a></li>
