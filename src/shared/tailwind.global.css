@@ -80,6 +80,10 @@
         @apply absolute bottom-2 right-2 w-[87px] h-8 md:w-24 md:h-7 xl:w-28 xl:h-8 flex justify-center items-center pt-[2px] md:pt-[3px] border border-white rounded-full font-jose-600 text-white text-[10px] leading-3 hover:text-primary-dark2 hover:bg-white hover:border-white cursor-pointer
     }
 
+    .partners-img {
+        @apply justify-self-center w-36 md:w-48 my-4
+    }
+
     .publications-menu-divs {
         @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600 md:font-light text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary-dark2  cursor-pointer
     }
@@ -106,10 +110,6 @@
 
     .publications-article-h4 {
         @apply mt-8 md:mt-12 xl:mt-16 font-unna-700-it text-[20px] md:text-[25px] leading-[23px] md:leading-[28px]
-    }
-
-    .responsive-ordered-list-items {
-        @apply pt-5 pb-5 xl:pt-9 xl:pb-9
     }
 
     .sectors-div {
