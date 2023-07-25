@@ -15,41 +15,123 @@ export class Endorsements extends TailwindElement(style) {
                     <a class="font-jose-600-it text-[9px] md:text-[12px] w-[32%] md:w-[30%] flex items-center justify-center h-7 md:h-9 pt-1 text-primary border-primary border-2 rounded-full" href="./endorsements.html">Endorsements</a>
                     <a class="font-jose-600-it text-[9px] md:text-[12px] w-[32%] md:w-[30%] flex items-center justify-center h-7 md:h-9 pt-1 text-primary border-primary border-2 rounded-full" href="./partners-&-portfolios.html">Partners & Portfolios</a>
                 </nav>
-                <h1 class="font-unna-700 text-xl md:text-[39px] md:leading-[45px] xl:text-[50px] xl:leading-[75px] text-center mb-4 md:mb-10 xl:mb-20">ENDORSEMENTS</h1>
-                <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Experience</h3>
-                <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
-                    T&P Consulting is made up of former political decision-makers, Commission officials, association Directors and multinational CEOs, as well as 
-                    award-winning lawyers. Activities such as high-level networking, translating policy output into business impact, and strategic outreach have been 
-                    a daily affair for our team. We understand the context of the bigger picture and the value of the smallest detail.
-                </p>
-                <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Expertise</h3>
-                <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
-                    We have a variety of specific fields of expertise, such as Brexit, gambling and international trade. But, we also know how to give 
-                    your expertise a voice and maximise the impact of your interests.
-                </p>
-                <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Geographic presence</h3>
-                <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
-                    With partner and satellite offices across globe (e.g. Galway, Kolkota, Vienna, Berlin, London, Milan, Managua & Jakarta) we are locally 
-                    accessible and internationally present. 
-                    One of many benefits: T&P can have an impact on EU decision-making processes directly through European capitals.
-                </p>
-                <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Integrity</h3>
-                <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
-                    At the heart of our approach are trust and long-term vision. We believe in solid relations both with our clients and the decision-makers we 
-                    approach for your needs. Our client codex is a tribute to this. In the same spirit, we believe in making sure that you get the services you seek. 
-                    We don’t pretend we can. We don’t waste your and our resources on activities we cannot provide. Instead, we are always happy to see how we could 
-                    help find someone else for you.
-                </p>  
-                <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Adaptability</h3>
-                <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
-                    Our concept is based on the flexibility to adapt our consulting team of trusted partners to your needs. This lowers costs and allows 
-                    independence to adapt to your needs rather than rigid organisational structures where costs for other potential non-profitable branches 
-                    need to be covered by the client’s invoice.
-                </p>  
-                <h3 class="font-unna-700-it text-xl xl:text-[25px] mt-7 xl:mt-9 mb-3 xl:mb-4">Languages</h3>
-                <p class="font-jose-400 text-[15px] xl:text-[17px] xl:leading-[21px]">
-                    A new opportunity for communication is opened with every language that our team masters: English, German, French, Romanian, Dutch, Danish, Swedish, Italian, Estonian, Albanian and Spanish.
-                </p>          
+                <h1 class="font-unna-700 text-xl md:text-[39px] md:leading-[45px] xl:text-[50px] xl:leading-[75px] text-center mb-8 md:mb-10 xl:mb-20">ENDORSEMENTS</h1>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Alexander Mohr</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">Executive Director <br>EFFA. European Flavour Association</span>
+                    <img class="w-1/4 mx-auto md:hidden" src="/images/endorsements/EFFA.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            Time & Place Consulting can only be commended for its ability to understand and tailor its services to the specific client’s needs. <br><br>
+                            This was especially the case when we looked for Brexit related information services  to get a sector specific overview and potential scenarios. 
+                            The in-depth knowledge on procedures and potential economic consequences that Time & Place provided, was especially helpful in light of fact 
+                            that nothing like Brexit has ever existed before.
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/4 max-w-[150px] mx-auto hidden md:block" src="/images/endorsements/EFFA.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Jon Bruford</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">Managing Editor <br>Casino International</span>
+                    <img class="w-1/2 mx-auto md:hidden" src="/images/endorsements/Casino.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            Time & Place Consulting’s team of experienced professionals and its collective tacit knowledge of the EU Affairs eco-system always deliver 
+                            cutting-edge analyses for the readers of our print and online publications. 
+                            I particularly commend their ability to provide valuable information and impact assessments which allow business to easily understand 
+                            political and regulatory landscapes.
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/2 max-w-[250px] mx-auto hidden md:block" src="/images/endorsements/Casino.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Pieter Allers</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">President <br>Linkage Western Europe</span>
+                    <img class="w-1/2 mx-auto md:hidden" src="/images/endorsements/Linkage.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            Cutting through complexity and navigating ambiguity effectively, 
+                            T&P Consulting is able to get to the core of issues and present a clear path 
+                            towards positive outcomes.
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/2 max-w-[250px] mx-auto hidden md:block" src="/images/endorsements/Linkage.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Wouter Lox</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">Secretary General <br>European Fruit Juice Association</span>
+                    <img class="w-1/3 mx-auto md:hidden" src="/images/endorsements/AIJN.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            I always look forward to an opportunity of working with Time & Place Consulting
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/3 max-w-[200px] mx-auto hidden md:block" src="/images/endorsements/AIJN.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Andrea Monne</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">Area Manager <br>Multiburo</span>
+                    <img class="w-1/2 mx-auto md:hidden" src="/images/endorsements/multiburo.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            Having access to T&P’s network has translated into growth in business for us.
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/2 max-w-[250px] mx-auto hidden md:block" src="/images/endorsements/multiburo.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Pedro Saramago</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">(Former) Marketing & Sales Officer <br>Linkare</span>
+                    <img class="w-1/2 mx-auto md:hidden" src="/images/endorsements/Linkare.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            T&P helped us navigate the complex bureaucratic landscape for SME EU funding opportunities
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/2 max-w-[220px] mx-auto hidden md:block" src="/images/endorsements/Linkare.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Enrico Turrin</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">Deputy Director <br>Federation of European Publishers</span>
+                    <img class="w-1/2 mx-auto md:hidden" src="/images/endorsements/European Publishers.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            With Glenn Cezanne at the helm and its established network, 
+                            T&P has all it takes to have the most effective communications impact in Brussels. 
+                            They have proven it time and place again!
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/2 max-w-[220px] mx-auto hidden md:block" src="/images/endorsements/European Publishers.png" alt="logo" aria-hidden="true" />
+                </div>
+                <div class="flex flex-col text-center mb-20 md:mb-28 xl:mb-32">
+                    <span class="font-unna-700 text-[15px] md:text-[19px] xl:text-[21px] leading-[18px] md:leading-[22px] xl:leading-[25px] mb-2">Hubert de Biolley</span>
+                    <span class="font-jose-300-it text-[12px] md:text-[15px] xl:text-[18px] leading-[15px] md:leading-[18px] xl:leading-[22px] mb-4">Director <br>IEA / iEthanol (European Industrial <br>Ethanol Association)</span>
+                    <img class="w-1/2 mx-auto md:hidden" src="/images/endorsements/iEthanol.png" alt="logo" aria-hidden="true" />
+                    <div class="relative my-8">
+                        <img class="w-7 md:w-10 absolute -top-4 left-0 md:left-5 xl:left-10" src="/images/endorsements/left-arrow.svg" alt="left-arrow" aria-hidden="true" />
+                        <p class="font-unna-700-it text-[14px] md:text-[18px] xl:text-[21px] leading-[17px] md:leading-[22px] xl:leading-[25px] w-3/4 mx-auto">
+                            T&P has helped us understand the new European Parliament (2019) 
+                            for us to profile our new association image. 
+                            We very much hope to continue working with them in the future.
+                        </p>
+                        <img class="w-7 md:w-10 absolute right-0 md:right-5 xl:right-10 -bottom-4" src="/images/endorsements/right-arrow.svg" alt="right-arrow" aria-hidden="true" />
+                    </div>
+                    <img class="w-1/2 max-w-[220px] mx-auto hidden md:block" src="/images/endorsements/iEthanol.png" alt="logo" aria-hidden="true" />
+                </div>
             </div>         
         `;
     }
