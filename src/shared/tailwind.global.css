@@ -307,17 +307,17 @@ textarea:focus {
 
 .hamburger-line {
     transition: 
-        y 200ms ease-in 200ms,
-        rotate 200ms ease-in,
-        opacity 0ms 200ms;
+        y 100ms ease-in 100ms,
+        rotate 100ms ease-in,
+        opacity 0ms 100ms;
     transform-origin: center;
 }
 
 #mobile-menu[aria-expanded="true"] .hamburger-line {
     transition: 
-        y 200ms ease-in,
-        rotate 200ms ease-in 200ms,
-        opacity 0ms 200ms;
+        y 100ms ease-in,
+        rotate 100ms ease-in 100ms,
+        opacity 0ms 100ms;
 }
 
 #mobile-menu[aria-expanded="true"] .top,

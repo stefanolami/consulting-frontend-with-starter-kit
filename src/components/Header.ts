@@ -93,8 +93,8 @@ export class Header extends TailwindElement(style) {
 
 
                 <!-- MOBILE HEADER -->
-
-                <div id="mobile-header" class="flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
+                <div class="w-full h-[60px]"></div>
+                <div id="mobile-header" class="fixed w-full h-[60px] top-0 bg-white z-[99999] flex md:hidden justify-between items-center select-none md:bg-transparent pt-2 pb-2 md:pt-4 md:pb-4 xl:pt-7 xl:pb-7">
                     <a href="./home.html">
                         <img class="w-[138px] h-[43px] ml-3" src="../../images/icons/T&P-consulting-logo-small-dark.svg" aria-hidden="true" alt="T&P Consulting logo">
                     </a>                
@@ -108,7 +108,7 @@ export class Header extends TailwindElement(style) {
                                 <rect class="hamburger-line bottom z-50"  fill="white" width="50" height="6" x="25" y="60" rx="3"></rect>
                             </svg>
                         </button>
-                        <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="z-[100] absolute w-screen top-12 -right-3 flex-col justify-between border-primary border-y-[3px] ">    
+                        <nav id="mobile-menu-nav" data-open=${this.menuOpen} class="z-[100] absolute w-screen top-[46px] -right-3 flex-col justify-between border-primary border-y-[3px] ">    
                             <ul class="flex flex-col md:flex-row justify-evenly h-[370px] pl-6 font-jose-600-it text-primary text-lg rounded-tl-lg rounded-bl-lg">
                                 <li><a href="./services.html">Services</a></li>
                                 <li><a href="./our-team.html">Our Team</a></li>
