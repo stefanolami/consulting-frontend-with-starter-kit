@@ -5,7 +5,7 @@
 @layer components {
 
     main {
-        @apply pb-[200px] md:pb-[426px] xl:pb-[360px]  mt-6 md:mt-16 xl:mt-36
+        @apply pb-[200px] md:pb-[426px] xl:pb-[360px]  mt-6 md:mt-16 xl:mt-28
     }
 
     .contact-page-input {

@@ -94,7 +94,7 @@ export class Contact extends TailwindElement(style) {
                     </div>
                 </div>
                 <h4 class="font-unna-700-it text-[30px] text-center my-14">Follow us on social media</h4>
-                <div class="flex flex-row justify-between w-[70%] xl:w-[50%] m-auto mt-11 mb-40">
+                <div class="flex flex-row justify-between w-[70%] xl:w-[50%] m-auto mt-11 mb-20">
                     <a class="flex flex-col justify-center items-center" href="" target="_blank" aria-label="Follow us on Facebook">
                         <img class="w-[40px] xl:w-[60px]"  src="../../images/icons/facebook.svg" />
                         <p class="font-unna-700-it text-[23px] text-primary-dark2 my-3">Facebook</p>
@@ -116,6 +116,72 @@ export class Contact extends TailwindElement(style) {
             </div>
 
             <!-- END DESKTOP CONTACT PAGE -->
+
+            <div class="bg-[#2E44FF]/[0.11] w-full pt-11 md:pt-14 xl:pt-20 pb-6 md:pb-10 xl:pb-16">
+                <h1 class="font-unna-700 md:w-[50%] mx-auto text-[20px] md:text-[39px] md:leading-[45px] xl:text-[50px] text-center mb-6 md:mb-12 xl:mb-20">SATELLITE AND PARTNER OFFICES</h1>
+                <div class="grid grid-cols-2 md:grid-cols-3 auto-rows-fr w-[85%] xl:w-[60%] mx-auto">
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Vienna, Austria</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">Herzfeld Consulting</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Bordeaux, France</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">Egemone Consulting</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Berlin, Germany</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">Reeckmann</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Berlin, Germany</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">mascontour</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Heidelberg, Germany</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg"></span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Stuttgart, Germany</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg"></span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Dublin, Ireland</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg"></span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Galway, Ireland</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg"></span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Milan, Italy</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg"></span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Turin, Italy</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">Next Energy Consumer</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Bucharest, Romania</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg"></span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Ploiesti, Romania</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">Zenchron Dynamics</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">London, UK</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">TradePeers</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Jakarta, Indonesia</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">mascontour</span>
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <span class="font-unna-700 text-sm md:text-xl xl:text-2xl">Managua, Nicaragua</span>
+                        <span class="font-jose-300-it text-xs md:text-base xl:text-lg">mascontour</span>
+                    </div>
+                </div>
+            </div>
 
         </section>
     `;
