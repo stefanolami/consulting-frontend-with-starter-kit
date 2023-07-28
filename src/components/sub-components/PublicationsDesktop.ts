@@ -11,7 +11,7 @@ export class PublicationsDesktop extends TailwindElement(style) {
     render() {
         return html`
             <div class="hidden xl:block">
-                <div class="grid gap-6 mx-44 my-20 max-w-6xl min-[1500px]:mx-auto">
+                <div class="grid gap-6 mx-44 mb-20 mt-20 max-w-6xl min-[1500px]:mx-auto">
                     <div class="grid grid-cols-[38%_1fr] gap-6">
                         <div class="grid grid-rows-2 relative h-[460px] text-primary-dark2">
                             <div class="absolute top-[-1px] left-[-1px] z-10 flex items-center rounded-br-3xl pl-2 pr-5 py-1 bg-white font-unna-700-it text-xl text-primary-dark2">Funding Programmes</div>

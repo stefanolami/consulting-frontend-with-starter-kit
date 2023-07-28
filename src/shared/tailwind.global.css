@@ -85,14 +85,14 @@
     }
 
     .publications-menu-divs {
-        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600 md:font-light text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary-dark2  cursor-pointer
+        @apply border-2 border-primary-dark2 rounded-full md:rounded-none w-[48%] md:w-[24%] font-jose-600 md:font-light text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary  cursor-pointer
     }
 
-    .publications-menu-first {
+    .publications-menu-divs:first-child {
         @apply md:rounded-tl-3xl
     }
 
-    .publications-menu-last {
+    .publications-menu-divs:last-child {
         @apply md:rounded-br-3xl
     }
 
@@ -229,6 +229,10 @@ textarea:focus {
 
 #body-newsletter-input::placeholder {
     color: white;
+}
+
+.publications-menu-hovered {
+    background: hsla(233, 100%, 92%, 1);
 }
 
 .font-jose-200 {
