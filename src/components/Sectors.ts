@@ -70,7 +70,7 @@ export class Sectors extends TailwindElement(style) {
                     ${this.modalTitles.map((title, index) => {
                             return html`
                                 <div @click="${this.showModal}" id="${this.formatTitle(title)}" class="sectors-div">
-                                    <img id="${this.formatTitle(title)}-img" class="w-[50%] md2:w-[70%] max-w-[108px] cursor-pointer mt-3" src="../../images/sectors/${title}.png" alt="${title}" aria-hidden="true" />
+                                    <img id="${this.formatTitle(title)}-img" class="w-[50%] md2:w-[70%] max-w-[108px] cursor-pointer mt-3 hover:scale-105" src="../../images/sectors/${title}.png" alt="${title}" aria-hidden="true" />
                                     <span id="${this.formatTitle(title)}-span" class="w-[90%] md:w-[80%] h-[35%] text-center font-unna-700 text-[10px] md:text-[16px] leading-[12px] md:leading-[18px] uppercase mt-4 mb-3 flex items-start justify-center">${title}</span>
                                     <div id="${this.formatTitle(title)}-modal"
                                         data-open="${this.activeModal.includes(this.formatTitle(title)) ? 'true' : 'false'}"

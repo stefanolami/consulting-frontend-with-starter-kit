@@ -82,9 +82,9 @@ export class Services extends TailwindElement(style) {
                             `
                         } else {
                             return html`
-                                <div @click="${this.showModal}" id="${this.formatTitle(title)}" class="services-div">
-                                    <img class="absolute w-full h-full z-[-10]" src="../../images/services/${title.replaceAll(',', '').replaceAll(' ', '-')}.png" alt="${title}" aria-hidden="true" />
-                                    <span id="${this.formatTitle(title)}-span" class="w-[90%] text-white text-center font-jose-700 text-[13px] leading-[17px] ">${title}</span>
+                                <div @click="${this.showModal}" id="${this.formatTitle(title)}" class="services-div group">
+                                    <img class="group-hover:scale-105 absolute w-full h-full z-[-10]" src="../../images/services/${title.replaceAll(',', '').replaceAll(' ', '-')}.png" alt="${title}" aria-hidden="true" />
+                                    <span id="${this.formatTitle(title)}-span" class="w-[90%] text-white text-center font-jose-700 text-[13px] leading-[17px] group-hover:scale-105">${title}</span>
                                     <div id="${this.formatTitle(title)}-modal" 
                                         data-open="${this.activeModal.includes(this.formatTitle(title)) ? 'true' : 'false'}"
                                         class="services-modal"

@@ -354,6 +354,40 @@ textarea:focus {
     transform: translateX(0px);
 }
 
+/* #why-us-nav {
+    backdrop-filter: blur(1px);
+    background-color: color-mix(in srgb, transparent 50%, white)
+} */
+
+#why-us-nav {
+    border: solid .2em color-mix(in srgb, transparent 50%, white);
+    background-origin: border-box;
+    background-clip: padding-box;
+}
+
+#why-us-nav:before {
+    width: calc(100% + .4em);
+    height: calc(100% + .4em);
+    backdrop-filter: blur(1px);
+    position: absolute;
+    z-index: -1;
+    /* go outside padding-box by 
+     * a border-width ($b) in every direction */
+    top:-.2em;
+    right: 0;
+    bottom: 0;
+    left: -.2em;
+    border: inherit;
+    border-color: transparent;
+    background: inherit;
+    background-color: rgb(46, 53, 111, .5);
+    background-clip: border-box;
+    content: ''
+}
+
+.why-us-nav-hovered {
+    background-color: #348CB0;
+}
 
 
 /* SERVICES ANIMATION */
