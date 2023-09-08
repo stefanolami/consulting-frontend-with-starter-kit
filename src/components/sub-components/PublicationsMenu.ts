@@ -17,10 +17,10 @@ export class PublicationsMenu extends TailwindElement(style) {
                     <div class="publications-menu-divs">The Covid of Things</div>
                     <div class="publications-menu-divs">Predictability in Politics</div>
                     <div class="w-[48%] md:w-[24%] relative group">
-                        <div class="border-2 border-primary rounded-full md:rounded-none md:rounded-br-3xl w-full font-jose-600 md:font-light text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center  my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary xl:group-hover:bg-[#1D2DAF]/90 cursor-pointer">Time & Place Newsletters</div>
+                        <div class="border-2 border-primary rounded-full md:rounded-none md:rounded-br-3xl w-full font-jose-600 md:font-normal text-primary-dark2 md:text-white text-[9px] md:text-base leading-[9px] text-center  my-1 md:mx-[1.5px] xl:mx-[1px] py-[7px] md:bg-primary xl:group-hover:bg-[#1D2DAF]/90 cursor-pointer">Time & Place Newsletters</div>
                         <div class="absolute w-full top-[42px] left-0 hidden mt-2 xl:group-hover:block z-50">
-                            <div class="text-primary text-[15px] leading-[15px] font-jose-300 text-center flex justify-center items-center py-2 px-4 mb-1 rounded-tl-3xl cursor-pointer bg-[#D8DCFF]">Time & Place Consulting Monthly Newsletter</div>
-                            <div class="text-primary text-[15px] leading-[15px] font-jose-300 text-center flex justify-center items-center py-2 px-4 rounded-br-3xl cursor-pointer bg-[#D8DCFF]">Time & Place EU Funding & Projects Newsletter</div>
+                            <div class="text-primary border-2 border-[#D8DCFF] hover:border-primary text-[15px] leading-[15px] font-jose-400 text-center flex justify-center items-center py-2 px-4 mb-1 rounded-tl-3xl cursor-pointer bg-[#D8DCFF]">Time & Place Consulting Monthly Newsletter</div>
+                            <div class="text-primary border-2 border-[#D8DCFF] hover:border-primary text-[15px] leading-[15px] font-jose-400 text-center flex justify-center items-center py-2 px-4 rounded-br-3xl cursor-pointer bg-[#D8DCFF]">Time & Place EU Funding & Projects Newsletter</div>
                         </div>
                     </div>
                 </div>

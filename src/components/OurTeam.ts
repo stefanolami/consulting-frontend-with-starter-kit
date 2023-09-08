@@ -4,8 +4,8 @@ import { TailwindElement } from "../shared/tailwind.element";
 
 import style from "../shared/tailwind.global.css";
 
-@customElement("who-we-are")
-export class WhoWeAre extends TailwindElement(style) {
+@customElement("our-team")
+export class OurTeam extends TailwindElement(style) {
 
     render() {
         return html`

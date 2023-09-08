@@ -23,36 +23,37 @@ export class Header extends TailwindElement(style) {
 
     render() {
         return html`
-            <header>
+            <header class="">
 
                 <a href="#main" class="skip-link" tabindex="1">Skip to main Content</a>
 
                 <!-- TABLET / DESKTOP HEADER -->
-
-                <div class="hidden ${classMap({'md:hidden': this.withImg, 'md:flex': !this.withImg})} justify-between items-center select-none md:bg-transparent pb-2 md:pt-3 md:pb-4 xl:pt-3 xl:pb-7">
-                    <a class="xl:hidden ml-7" href="./home.html">
-                        <img class="w-[204px] xl:hidden" src="../../images/icons/T&P-consulting-logo-small-dark.svg" alt="T&P Funding logo">
-                    </a>
-                    <a class="hidden xl:block ml-[4%]" href="./home.html">
-                        <img class="w-[145px]" src="../../images/icons/T&P-consulting-logo-desktop.svg" alt="T&P Funding logo">             
-                    </a>
-                    <nav id="header-nav" class="w-[70%] mr-4">
-                        <ul class="flex flex-row justify-around xl:justify-center items-center w-full h-full font-jose-400-it text-base text-center">
-                            <li class="desktop-header-nav-items"><a href="./services.html">Services</a></li>
-                            <li class="desktop-header-nav-items"><a href="./our-team.html">Our Team</a></li>
-                            <li class="desktop-header-nav-items"><a href="./sectors.html">Sectors</a></li>
-                            <li class="desktop-header-nav-items relative group">
-                                <a href="./why-us.html">Why Us</a>
-                                <div class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full">
-                                    <a class="h-12 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pt-2" href="./client-codex.html">Client Codex</a>
-                                    <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center pb-2" href="./endorsements.html">Endorsements</a>
-                                    <a class="h-10 font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center" href="./partners-&-portfolios.html">Partners & <br>Portfolios</a>
-                                </div>
-                            </li>
-                            <li class="desktop-header-nav-items"><a href="./publications.html">Publications</a></li>
-                            <li class="desktop-header-nav-items xl:border-r-0"><a href="./contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
+                <div class="relative">
+                    <div class="absolute w-full hidden ${classMap({'md:hidden': this.withImg, 'md:flex': !this.withImg})} justify-between items-center select-none md:bg-white mt-4 h-24">
+                        <a class="xl:hidden ml-7" href="./home.html">
+                            <img class="w-[204px] xl:hidden" src="../../images/icons/T&P-consulting-logo-small-dark.svg" alt="T&P Funding logo">
+                        </a>
+                        <a class="hidden xl:block ml-[4%]" href="./home.html">
+                            <img class="w-[145px]" src="../../images/icons/T&P-consulting-logo-desktop.svg" alt="T&P Funding logo">             
+                        </a>
+                        <nav id="header-nav" class="w-[70%] mr-4 h-9">
+                            <ul class="flex flex-row justify-around xl:justify-center items-center w-full h-full font-jose-400-it text-base text-center">
+                                <li class="desktop-header-nav-items hover:text-lg"><a href="./services.html">Services</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg"><a href="./our-team.html">Our Team</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg"><a href="./sectors.html">Sectors</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg relative group">
+                                    <a href="./why-us.html">Why Us</a>
+                                    <div class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full">
+                                        <a class="w-full font-jose-400-it text-[16px] leading-[22px] hover:bg-primary hover:text-white flex justify-center items-center py-3" href="./client-codex.html">Client Codex</a>
+                                        <a class="w-full font-jose-400-it text-[16px] leading-[22px] hover:bg-primary hover:text-white flex justify-center items-center py-3" href="./endorsements.html">Endorsements</a>
+                                        <a class="w-full font-jose-400-it text-[16px] leading-[22px] hover:bg-primary hover:text-white flex justify-center items-center py-3" href="./partners-&-portfolios.html">Partners & <br>Portfolios</a>
+                                    </div>
+                                </li>
+                                <li class="desktop-header-nav-items hover:text-lg"><a href="./publications.html">Publications</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg xl:border-r-0"><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
 
 
@@ -60,7 +61,7 @@ export class Header extends TailwindElement(style) {
 
                 <div id="header-with-hands" class="relative hidden ${classMap({'md:hidden': !this.withImg, 'md:flex': this.withImg})} flex-col justify-between ">
                     <img class="z-[-10] w-full" src="../../images/landing page/doors-blue.jpg" aria-hidden="true" alt="Header Image">
-                    <div class="absolute w-full flex justify-between items-center select-none bg-transparent mt-3 xl:mt-4">
+                    <div class="absolute w-full flex justify-between items-center select-none bg-transparent mt-3 xl:mt-4 h-24">
                         <a class="xl:hidden ml-7 flex flex-row justify-center items-center" href="./home.html">
                             <img class="w-[64px]" src="../../images/icons/T&P-consulting-logo-tablet-left.svg" aria-hidden="true" alt="T&P Consulting logo">
                             <img class="w-[140px]" src="../../images/icons/T&P-consulting-logo-tablet-right.svg" aria-hidden="true" alt="T&P Consulting logo">
@@ -68,22 +69,21 @@ export class Header extends TailwindElement(style) {
                         <a class="hidden xl:block ml-[4%]" href="./home.html">
                             <img class="w-[145px]" src="../../images/icons/T&P-consulting-logo-desktop-white.svg" aria-hidden="true" alt="T&P Consulting logo">             
                         </a>
-                        <nav id="header-nav" class="w-[70%] mr-4">
+                        <nav id="header-nav" class="w-[70%] mr-4 h-9">
                             <ul class="flex flex-row justify-around xl:justify-center items-center w-full h-full font-jose-400-it text-base text-center text-white">
-                                <li class="desktop-header-nav-items border-white"><a href="./services.html">Services</a></li>
-                                <li class="desktop-header-nav-items border-white"><a href="./our-team.html">Our Team</a></li>
-                                <li class="desktop-header-nav-items border-white"><a href="./sectors.html">Sectors</a></li>
-                                <li class="desktop-header-nav-items border-white relative group">
+                                <li class="desktop-header-nav-items hover:text-lg border-white"><a href="./services.html">Services</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg border-white"><a href="./our-team.html">Our Team</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg border-white"><a href="./sectors.html">Sectors</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg border-white relative group">
                                     <a href="./why-us.html">Why Us</a>
-                                    <div class="w-full absolute top-6 right-0 h-3 bg-transparent"></div>
-                                    <div id="why-us-nav" class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full mt-3 bg-primary">
+                                    <div id="why-us-nav" class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full bg-primary">
                                         <a class="w-full font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center py-3 hover:bg-primary-2" href="./client-codex.html">Client Codex</a>
                                         <a class="w-full font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center py-3 hover:bg-primary-2" href="./endorsements.html">Endorsements</a>
                                         <a class="w-full font-jose-400-it text-[16px] leading-[22px] flex justify-center items-center py-3 hover:bg-primary-2" href="./partners-&-portfolios.html">Partners & <br>Portfolios</a>
                                     </div>
                                 </li>
-                                <li class="desktop-header-nav-items border-white"><a href="./publications.html">Publications</a></li>
-                                <li class="desktop-header-nav-items xl:border-r-0"><a href="./contact.html">Contact</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg border-white"><a href="./publications.html">Publications</a></li>
+                                <li class="desktop-header-nav-items hover:text-lg xl:border-r-0"><a href="./contact.html">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
