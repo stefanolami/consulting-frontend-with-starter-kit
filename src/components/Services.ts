@@ -69,8 +69,8 @@ export class Services extends TailwindElement(style) {
     render() {
         return html`
             <div class="md:mt-14 mb-20 xl:mb-28">
-                <h1 class="md:mb-10 xl:mb-20 text-center font-unna-700 text-[20px] md:text-[39px] xl:text-[50px]">SERVICES</h1>
-                <div class="grid grid-cols-[156px_156px] md:grid-cols-[173px_173px_173px_173px] xl:grid-cols-[198px_198px_198px_198px] w-[320px] md:w-[752px] xl:w-[864px] gap-2 md:gap-5 xl:gap-6 mx-auto mt-6">   
+                <h1 class="mb-6 md:mb-10 xl:mb-20 text-center font-unna-700 text-[20px] md:text-[39px] xl:text-[50px]">SERVICES</h1>
+                <div class="grid grid-cols-[156px_156px] md:grid-cols-[173px_173px_173px_173px] xl:grid-cols-[198px_198px_198px_198px] w-[320px] md:w-[752px] xl:w-[864px] gap-2 md:gap-5 xl:gap-6 mx-auto">   
                     ${this.modalTitles.map((title, index) => {
                         if (index == 13) {
                             return html`

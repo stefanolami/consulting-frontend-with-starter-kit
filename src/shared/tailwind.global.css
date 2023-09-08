@@ -177,7 +177,7 @@
     }
 
     .tablet-desktop-whoweare-photo-div {
-        @apply flex flex-col justify-center items-center absolute top-[189px] left-[4px] xl:top-[282px] xl:left-[10px] z-10 w-[232px] h-[47px] xl:w-[340px] xl:h-[68px]
+        @apply flex flex-col justify-center items-center absolute  left-[3px] top-[123px] md:left-[4px] md:top-[189px] xl:top-[282px] xl:left-[10px] z-10 w-[150px] h-[30px] md:w-[232px] md:h-[47px] xl:w-[340px] xl:h-[68px]
     }
 
     .tablet-services-btns {
@@ -242,6 +242,10 @@ textarea:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.our-team-photo-layer {
+    background: rgba(46, 53, 111, 0.61);
 }
 
 .publications-menu-hovered {
