@@ -74,9 +74,9 @@ export class Services extends TailwindElement(style) {
                     ${this.modalTitles.map((title, index) => {
                         if (index == 13) {
                             return html`
-                                <a href="./contact.html" @click="${this.showModal}" id="${this.formatTitle(title)}" class="services-div">
-                                    <img class="hidden md:block absolute w-full h-full z-[-10]" src="../../images/services/Contact-Us-desktop.png" alt="${title}" aria-hidden="true" />
-                                    <img class="md:hidden absolute w-full h-full z-[-10]" src="../../images/services/Contact-Us-mobile.png" alt="${title}" aria-hidden="true" />
+                                <a href="./contact.html" @click="${this.showModal}" id="${this.formatTitle(title)}" class="services-div group">
+                                    <img class="group-hover:scale-105 hidden md:block absolute w-full h-full z-[-10]" src="../../images/services/Contact-Us-desktop.png" alt="${title}" aria-hidden="true" />
+                                    <img class="group-hover:scale-105 md:hidden absolute w-full h-full z-[-10]" src="../../images/services/Contact-Us-mobile.png" alt="${title}" aria-hidden="true" />
                                     <span id="${this.formatTitle(title)}-span" class="z-20 w-[90%] text-white text-center font-jose-700 text-[13px] leading-[17px] ">${title}</span>
                                 </a>
                             `

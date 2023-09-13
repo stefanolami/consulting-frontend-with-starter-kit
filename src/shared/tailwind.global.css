@@ -188,6 +188,10 @@
         @apply mb-5 font-unna-700 text-[31px] leading-[31px] text-center
     }
 
+    .team-member-p-div {
+        @apply font-jose-400 text-[15px] leading-[18px] md:text-[17px] md:leading-[21px] xl:text-[19px] xl:leading-[24px] 
+    }
+
     .who-we-are-card-p {
         @apply font-jose-600 text-[15px] leading-[15px] text-primary-dark2/60 mt-3
     }

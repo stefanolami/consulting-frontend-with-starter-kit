@@ -43,7 +43,7 @@ export class Header extends TailwindElement(style) {
                                 <li class="desktop-header-nav-items hover:text-lg"><a href="./sectors.html">Sectors</a></li>
                                 <li class="desktop-header-nav-items hover:text-lg relative group">
                                     <a href="./why-us.html">Why Us</a>
-                                    <div class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full">
+                                    <div class="absolute hidden group-hover:xl:flex flex-col justify-between items-center w-full bg-white z-50">
                                         <a class="w-full font-jose-400-it text-[16px] leading-[22px] hover:bg-primary hover:text-white flex justify-center items-center py-3" href="./client-codex.html">Client Codex</a>
                                         <a class="w-full font-jose-400-it text-[16px] leading-[22px] hover:bg-primary hover:text-white flex justify-center items-center py-3" href="./endorsements.html">Endorsements</a>
                                         <a class="w-full font-jose-400-it text-[16px] leading-[22px] hover:bg-primary hover:text-white flex justify-center items-center py-3" href="./partners-&-portfolios.html">Partners & <br>Portfolios</a>
